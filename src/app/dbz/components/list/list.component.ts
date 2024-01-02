@@ -32,7 +32,7 @@ if (!id) return;
 
   this.onDelete.emit(id);
 // cambio para git
-console.log('id')
+console.log(id)
     }
 
 }
