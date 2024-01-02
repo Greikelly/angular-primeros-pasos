@@ -14,7 +14,6 @@ export class HeroComponent {
   get capitalizedName(): string {
     return this.name.toUpperCase();
   }
-
   getHeroDescription(): string {
     return `${this.name} - ${this.age}`;
   }
